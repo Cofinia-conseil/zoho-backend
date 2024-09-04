@@ -1,0 +1,10 @@
+[build]
+  functions = "functions"
+
+[dev]
+  publish = "dist"
+
+
+[functions]
+  external_node_modules = ["axios", "node-fetch"]
+  node_bundler = "esbuild"
